@@ -26,7 +26,7 @@ export default async function RootLayout({
     "@context": "https://schema.org",
     "@type": "SportingGoodsStore",
     name: business.name,
-    telephone: "+919736325100",
+    telephone: "+918351069133",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Near ITI Bilaspur, 6-B Industrial Area, Sadar",

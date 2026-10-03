@@ -253,7 +253,7 @@ export function AdminDashboard() {
       );
       if (whatsapp && !/^\d{10,15}$/.test(whatsapp))
         throw new Error(
-          "Use the country code and phone number, e.g. 919736325100.",
+          "Use the country code and phone number, e.g. 918351069133.",
         );
       const file = data.get("gallery_image") as File;
       let gallery = settings.gallery.map((g, i) => ({
@@ -727,7 +727,7 @@ export function AdminDashboard() {
             <input
               name="whatsapp"
               defaultValue={settings.whatsapp}
-              placeholder="Country code + number, e.g. 919736325100"
+              placeholder="Country code + number, e.g. 918351069133"
             />
             <small>
               Leave blank to show the call button. Add only a number you have

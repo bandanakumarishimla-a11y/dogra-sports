@@ -1,9 +1,9 @@
 export const business = {
   name: "Dogra Sports",
-  phone: "+91 97363 25100",
-  phoneHref: "tel:+919736325100",
-  alternate: "+91 98163 75037",
-  alternateHref: "tel:+919816375037",
+  phone: "+91 83510 69133",
+  phoneHref: "tel:+918351069133",
+  alternate: "+91 97363 25100",
+  alternateHref: "tel:+919736325100",
   address:
     "Near ITI Bilaspur, 6-B Industrial Area, Sadar, Bilaspur (209), Bilaspur, Himachal Pradesh, 174001",
   hours: "9:00 AM – 8:00 PM",
