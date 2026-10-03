@@ -1,0 +1,42 @@
+export type Product = {
+  id: string;
+  slug: string;
+  name: string;
+  category: string;
+  brand: string;
+  description: string;
+  details: string[];
+  sizes: string[];
+  colours: string[];
+  price: number | null;
+  stock: string;
+  image_url: string | null;
+  featured: boolean;
+  published: boolean;
+  sample: boolean;
+  created_at?: string;
+};
+export type Settings = {
+  hero_title: string;
+  hero_subtitle: string;
+  whatsapp: string;
+  gallery: { url: string; caption: string }[];
+  policies?: Record<string, string>;
+};
+export type Enquiry = {
+  id: string;
+  created_at: string;
+  name: string;
+  phone: string;
+  kind: string;
+  organisation: string;
+  product: string;
+  quantity: number | null;
+  sizes: string;
+  delivery_date: string | null;
+  message: string;
+  attachment_name: string | null;
+  attachment_type: string | null;
+  attachment_base64?: string | null;
+  status: string;
+};
